@@ -1,6 +1,7 @@
-.PokeGrid {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
+.PokeFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     background-color: rgba(189, 40, 40, 0.781);
     width: 500px;
     height: 500px;
@@ -14,5 +15,5 @@ img {
     height: 80px;
 }
 
- 
+
  
